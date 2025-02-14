@@ -1,11 +1,11 @@
-const express = require('express')
-const path = require('path')
+const express = require('express');
+const path = require('path');
 
-const server = express()
+const server = express();
 
-server.use(express.json())
+server.use(express.json());
 
-server.use(express.static(__dirname))
+server.use(express.static(__dirname));
 
 server.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
