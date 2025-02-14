@@ -5,6 +5,8 @@ const server = express()
 
 server.use(express.json())
 
+server.use(express.static(__dirname))
+
 server.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
 })
