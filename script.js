@@ -1,3 +1,11 @@
-const projectsButton = getElementByClass("projects-button");
-const projectsContainer = getElementByClass("projects-container");
-const headerContainer = getElementByClass("header-container");
+const projectsButton = document.querySelector(".projects-button");
+const projectsContainer = document.querySelector(".projects-container");
+const headerContainer = document.querySelector(".header-container");
+
+projectsButton.addEventListener("click", () => {
+    if (projectsContainer.classList.contains("hidden")) {
+        projectsContainer.classList.remove("hidden");
+    } else {
+        projectsContainer.classList.add("hidden");
+    };
+});
