@@ -1,3 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    width: 0 !important;
+    overflow: -moz-scrollbars-none;
+}
+
+html, body {
+    font-size: 16px;
+}
+
 .test {
     color: brown;
     border: black 5px solid;
