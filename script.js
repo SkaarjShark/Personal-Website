@@ -9,3 +9,5 @@ projectsButton.addEventListener("click", () => {
         projectsContainer.classList.add("hidden");
     };
 });
+
+//TO DO: When you click on the certificate images, they pop up and display bigger on your screen, like Wikipedia stuff.
