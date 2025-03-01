@@ -40,6 +40,13 @@ html, body {
     height: auto;
 }
 
+.certificate-container {
+    background-image: linear-gradient(gray, #fafafa);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
 .certificate {
     max-width: 30%;
     height: auto;
