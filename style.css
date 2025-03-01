@@ -40,11 +40,19 @@ html, body {
     height: auto;
 }
 
-.certificate-container {
+.middle-container {
     background-image: linear-gradient(gray, #fafafa);
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
+}
+
+.certificate-container {
+    background-image: linear-gradient(blue, purple);
+}
+
+.links-container {
+    background-image: linear-gradient(red, pink);
 }
 
 .certificate {
