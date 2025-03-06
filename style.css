@@ -69,6 +69,10 @@ html, body {
     background-image: linear-gradient(green, lightgreen);
 }
 
+.bullets-container {
+    background-image: linear-gradient(yellow, orange);
+}
+
 .hidden * {
     display: none;
 }
