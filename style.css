@@ -65,6 +65,10 @@ html, body {
     border-radius: 1rem;
 }
 
+.project {
+    background-image: linear-gradient(green, lightgreen);
+}
+
 .hidden * {
     display: none;
 }
