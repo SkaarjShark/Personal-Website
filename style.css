@@ -71,6 +71,7 @@ html, body {
 
 .project {
     background-image: linear-gradient(green, lightgreen);
+    margin-bottom: 2rem;
 }
 
 .bullets-container {
