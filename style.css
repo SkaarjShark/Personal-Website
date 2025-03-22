@@ -51,7 +51,45 @@ html, body {
 }
 
 .links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
     background-image: linear-gradient(red, pink);
+}
+
+.bloomtech-container, .github-container, .linkedin-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0.5rem;
+}
+
+.logo {
+    max-width: 1rem; /* Adjust the size */
+    border-radius: 1rem;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.downloads-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.resume-container, .certificate-pdf-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .certificate {
