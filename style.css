@@ -27,6 +27,7 @@ html, body {
     color: white;
     margin: 0 auto;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .face {
@@ -103,6 +104,10 @@ a:hover {
 }
 
 .projects-button {
+    background-color: white;
+    border-radius: 1rem;
+    border-color: gray;
+    color: #008294;
     margin-bottom: 2rem;
 }
 
