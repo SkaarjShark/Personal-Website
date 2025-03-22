@@ -5,8 +5,10 @@ const headerContainer = document.querySelector(".header-container");
 projectsButton.addEventListener("click", () => {
     if (projectsContainer.classList.contains("hidden")) {
         projectsContainer.classList.remove("hidden");
+        projectsButton.textContent = "Hide Projects";
     } else {
         projectsContainer.classList.add("hidden");
+        projectsButton.textContent = "Show Projects";
     };
 });
 
