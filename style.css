@@ -49,6 +49,9 @@ html, body {
 
 .certificate-container {
     background-image: linear-gradient(blue, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links-container {
@@ -94,8 +97,9 @@ a:hover {
 }
 
 .certificate {
-    max-width: 30%;
+    max-width: 45%;
     height: auto;
+    margin-right: 2%
 }
 
 .logo {
