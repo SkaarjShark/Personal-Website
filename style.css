@@ -140,6 +140,19 @@ a:hover {
 }
 
 /* Responsive adjustments */
+@media (max-width: 1175px) {
+    .certificate-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificate {
+        margin-bottom: 0.5rem;
+        min-width: 250px;
+    }
+}
+
 @media (max-width: 768px) {
     .certificate {
         max-width: 50%;
