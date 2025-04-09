@@ -154,6 +154,7 @@ a:hover {
 .links-container {
     background-image: linear-gradient(#00c3c8, #5bc8b2);
     border-radius: 1rem;
+    text-align: center;
 }
 
 .hidden * {
