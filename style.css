@@ -23,11 +23,15 @@ html, body {
     border-radius: 1rem;
     max-width: 100%;
     height: auto;
-    text-align: center;
+    text-align: left;
     color: white;
     margin: 0 auto;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+
+.text-container h1 {
+    text-align: center;
 }
 
 .face {
