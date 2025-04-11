@@ -116,7 +116,7 @@ a:hover {
 }
 
 .projects-button-text {
-    background-image: linear-gradient(pink, #fafafa);
+    background-image: linear-gradient(gray, #fafafa);
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -145,7 +145,7 @@ a:hover {
 
 .project {
     margin-bottom: 2rem;
-    background-image: linear-gradient(gold, #fafafa);
+    background-image: linear-gradient(gray, #fafafa);
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -221,3 +221,11 @@ a:hover {
         padding: 0.5rem;
     }
 }
+
+/* Original Colors
+    background-image: linear-gradient(#008294, #90d5ff);
+    background-image: linear-gradient(gold, #fafafa);
+    background-image: linear-gradient(#00c3c8, #5bc8b2);
+    background-image: linear-gradient(pink, #fafafa);
+    background-image: linear-gradient(gray, #fafafa);
+*/
