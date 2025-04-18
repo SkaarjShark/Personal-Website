@@ -125,7 +125,7 @@ a:hover {
 }
 
 .projects-button-text {
-    background-image: linear-gradient(gray, #fafafa);
+    background-image: linear-gradient(#008294, #90d5ff);
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -154,7 +154,7 @@ a:hover {
 
 .project {
     margin-bottom: 2rem;
-    background-image: linear-gradient(gray, #fafafa);
+    background-image: linear-gradient(#008294, #90d5ff);
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1.5rem;
