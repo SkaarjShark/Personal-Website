@@ -160,6 +160,10 @@ a:hover {
     font-size: 1.5rem;
 }
 
+.project-title {
+    cursor: pointer;
+}
+
 .hidden * {
     display: none;
 }
