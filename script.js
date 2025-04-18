@@ -1,6 +1,8 @@
 const projectsButton = document.querySelector(".projects-button");
 const projectsContainer = document.querySelector(".projects-container");
 const projectsButtonText = document.querySelector(".projects-button-text");
+const projectTitle = document.querySelectorAll(".project-title")
+const projectMore = document.querySelectorAll(".project-more")
 
 projectsButton.addEventListener("click", () => {
     if (projectsContainer.classList.contains("hidden")) {
@@ -13,6 +15,16 @@ projectsButton.addEventListener("click", () => {
         projectsButtonText.textContent = "← Click to see some of my projects I worked on during my time at Bloomtech."
     };
 });
+
+for (let i=0; i < projectTitle.length; i++) {
+    projectTitle[i].addEventListener("click", () => {
+        if (projectMore[i].classList.contains("hidden")) {
+            projectMore[i].classList.remove("hidden");
+        } else {
+            projectMore[i].classList.add("hidden");
+        };
+    });
+};
 
 // Lightbox functionality
 const certificateImages = document.querySelectorAll(".certificate"); // All images with the class 'certificate'
