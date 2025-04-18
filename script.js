@@ -3,6 +3,20 @@ const projectsContainer = document.querySelector(".projects-container");
 const projectsButtonText = document.querySelector(".projects-button-text");
 const projectTitle = document.querySelectorAll(".project-title")
 const projectMore = document.querySelectorAll(".project-more")
+const projectTitleClicked = [
+    "Asylum Office Grant Rate Tracker",
+    "Api with Data Accessing Endpoints",
+    "Widget/Grid",
+    "Pizza Ordering Form",
+    "Login Form"
+];
+const projectTitleNonclicked = [
+    "Asylum Office Grant Rate Tracker ← Click to see more details on the project",
+    "Api with Data Accessing Endpoints ← Click to see more details on the project",
+    "Widget/Grid ← Click to see more details on the project",
+    "Pizza Ordering Form ← Click to see more details on the project",
+    "Login Form ← Click to see more details on the project"
+];
 
 projectsButton.addEventListener("click", () => {
     if (projectsContainer.classList.contains("hidden")) {
@@ -20,8 +34,10 @@ for (let i=0; i < projectTitle.length; i++) {
     projectTitle[i].addEventListener("click", () => {
         if (projectMore[i].classList.contains("hidden")) {
             projectMore[i].classList.remove("hidden");
+            projectTitle[i].textContent = projectTitleClicked[i]
         } else {
             projectMore[i].classList.add("hidden");
+            projectTitle[i].textContent = projectTitleNonclicked[i];
         };
     });
 };
