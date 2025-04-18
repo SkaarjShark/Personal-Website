@@ -1,6 +1,7 @@
 const projectsButton = document.querySelector(".projects-button");
 const projectsContainer = document.querySelector(".projects-container");
 const projectsButtonText = document.querySelector(".projects-button-text");
+const project = document.querySelectorAll(".project")
 const projectTitle = document.querySelectorAll(".project-title")
 const projectMore = document.querySelectorAll(".project-more")
 const projectTitleClicked = [
@@ -31,7 +32,7 @@ projectsButton.addEventListener("click", () => {
 });
 
 for (let i=0; i < projectTitle.length; i++) {
-    projectTitle[i].addEventListener("click", () => {
+    project[i].addEventListener("click", () => {
         if (projectMore[i].classList.contains("hidden")) {
             projectMore[i].classList.remove("hidden");
             projectTitle[i].textContent = projectTitleClicked[i]
