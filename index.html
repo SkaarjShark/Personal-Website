@@ -4,112 +4,22 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header-container flex">
+        <div class="header-container"> 
+            <div>Jacob Handley</div>
+            <div>Full Stack Web Developer & Software Engineer</div>
+            <div class="clickables">
+                <div>Certificate</div>   
+                <div>| Projects</div>
+                <div>| Resume</div>  
+            </div>
+        </div>
+        <div class="body-container">
             <img src="/images/LBE_3668greyface.jpg" class="face"></img>
             <div class="header-part-2-container">
                 <div class="text-container">
                     <h1>Hi! I'm Jacob Handley</h1>
                     <h2>I am a graduate from Bloomtech, which is a online school that not only teaches you how the web works, but also how to learn. They went in depth on HTML, CSS, Javascript, and React. They also taught me a lot about back-end development, API calls, and data handling and security. The most important thing they have taught me is with hard work and dedication, you can do so many things you thought you could never do before.</h2>
                 </div>
-                <div class="middle-container flex">
-                    <div class="certificate-container">
-                        <img src="/images/bloomtech-certificate-1.png" class="certificate" title="Click to View">
-                        <img src="/images/bloomtech-certificate-2.png" class="certificate" title="Click to View">
-                    </div>
-                    <div class="links-container">
-                        <h2>-- Links --</h2>
-                        <div class="bloomtech-container">
-                            <img src="/images/logo-bloomtech.PNG" class="logo">
-                            <a href="https://www.bloomtech.com/">Bloomtech School</a>
-                        </div>
-                        <div class="github-container">
-                            <img src="/images/logo-github.PNG" class="logo">
-                            <a href="https://github.com/SkaarjShark">Github Profile</a>
-                        </div>
-                        <div class="linkedin-container">
-                            <img src="/images/logo-linkedin.PNG" class="logo">
-                            <a href="https://www.linkedin.com/in/jacob-handey-08ba73345/">LinkedIn Account</a>
-                        </div>
-                        <div class="downloads-container">
-                            <h2>-- Downloads --</h2>
-                            <div class="resume-container">
-                                <img src="/images/resume.png" class="logo">
-                                <a href="/pdf_downloads/My Resume v3.pdf">Resume PDF</a>
-                            </div>
-                            <div class="certificate-pdf-container">
-                                <img src="/images/certificate.png" class="logo">
-                                <a href="/pdf_downloads/BloomTech Certificate of Completion - Jacob Handley (Full Stack Web Development).pdf">Certificate PDF</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- TO DO: Make the title of the project clickable and display the rest of the project info-->
-        <div class="projects-button-container">
-            <Button class="projects-button">Hide Projects</Button>
-            <div class="projects-button-text">Here are some of my projects I worked on during my time at Bloomtech.</div>
-        </div>
-        <div class="projects-container">
-            <div class="project">
-                <div class="project-title">Asylum Office Grant Rate Tracker ← Click to see more details on the project</div>
-                <div class="project-more hidden">
-                    <ul class="bullets-container">
-                        <li>Designed the Homepage using React and Built Styles with Tailwindcss</li>
-                        <li>Made a dynamic graphs page that renders data in the browser with an API call.</li>
-                        <li>Utilized Auth0 for a login/logout feature. Allowing only certain users to view data</li>
-                    </ul>
-                    <div>Technology: JavaScript, HTML, CSS, Node.js, NPM, Browser DevTools, React, Tailwindcss, Axios, REST Client, Auth0</div>
-                    <a href="https://github.com/SkaarjShark/asylum-office-grant-rate-tracker">Github Link</a> 
-                </div> 
-            </div>
-            <div class="project">
-                <div class="project-title">Api with Data Accessing Endpoints ← Click to see more details on the project</div>
-                <div class="project-more hidden">
-                    <ul class="bullets-container">
-                        <li>Developed an API using JavaScript, Express, and REST, supporting GET and POST requests for effi cient data handling.</li>
-                        <li>Designed and tested endpoints to add and display data in a database.</li>
-                        <li>Demonstrated profi ciency in backend development and database integration through hands-on implementation.</li>
-                    </ul>
-                    <div>Technology: Javascript, HTML, CSS, Node.js, NPM, Browser DevTools, React, Express, REST Client</div>
-                    <a href="https://github.com/SkaarjShark/sprint-14-challenge">Github Link</a>
-                </div>     
-            </div>
-            <div class="project">
-                <div class="project-title">Widget/Grid ← Click to see more details on the project</div>
-                <div class="project-more hidden">
-                    <ul class="bullets-container">
-                        <li>Built a dynamic nine-box grid with interactive controls to select and move a single box using buttons.</li>
-                        <li>Utilized JavaScript, React, Redux, and REST for state management and endpoint testing.</li>
-                        <li>Gained hands-on experience with React and Redux, focusing on state management and user interface functionality.</li>
-                    </ul>
-                    <div>Technology: Javascript, HTML, CSS, Node.js. NPM, Browser DevTools, React, Redux</div>
-                    <a href="https://github.com/SkaarjShark/sprint-9-challenge?tab=readme-ov-file">Github Link</a>   
-                </div>  
-            </div>
-            <div class="project">
-                <div class="project-title">Pizza Ordering Form ← Click to see more details on the project</div>
-                <div class="project-more hidden">
-                    <ul class="bullets-container">
-                        <li>Designed a responsive form with validation, allowing submission only after entering a name and customizing a pizza.</li>
-                        <li>Implemented the project using JavaScript, React, and React Router to manage form inputs and navigation.</li>
-                        <li>Focused on creating user-friendly forms with robust validation.</li>
-                    </ul>
-                    <div>Technology: Javascript, HTML, CSS, Node.js, NPM, Browser DevTools, React, Jest</div>
-                    <a href="https://github.com/SkaarjShark/sprint-7-challenge-v2">Github Link</a> 
-                </div>    
-            </div>
-            <div class="project">
-                <div class="project-title">Login Form ← Click to see more details on the project</div>
-                <div class="project-more hidden">
-                    <ul class="bullets-container">
-                        <li>Developed a secure login system using JWTs to restrict data access to authenticated users only.</li>
-                        <li>Integrated database endpoints to store user data, with passwords securely hashed using bcryptjs.</li>
-                        <li>Focused on implementing authentication and data protection, showcasing expertise in JWTs and password hashing.</li>
-                    </ul>
-                    <div>Technology: Javascript, HTML, CSS, Node.js, NPM, Browser DevTools, Bcryptjs, Json Web Tokens, Knex, Express</div>
-                    <a href="https://github.com/SkaarjShark/sprint-15-challenge">Github Link</a> 
-                </div>    
             </div>
         </div>
         <!-- The Lightbox Modal -->
