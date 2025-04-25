@@ -24,6 +24,12 @@ html, body {
     display: flex;
 }
 
+.body-container .text-container {
+    margin-top: 3rem;
+    padding: 3rem;
+    border: red 2px solid;
+}
+
 .clickables {
     display: flex;
     justify-content: space-between;
@@ -34,6 +40,7 @@ html, body {
     border-radius: 15rem;
     max-width: 100%;
     height: auto;
+    margin-left: 1rem;
     margin-right: 1rem;
     display: block;
     flex-shrink: 0;
