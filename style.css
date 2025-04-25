@@ -20,8 +20,22 @@ html, body {
     font-size: 1.5rem;
 }
 
+.body-container {
+    display: flex;
+}
+
 .clickables {
     display: flex;
     justify-content: space-between;
     border: purple 2px solid;
+}
+
+.face {
+    border-radius: 15rem;
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+    display: block;
+    flex-shrink: 0;
+    object-fit: cover;
 }
