@@ -1,3 +1,38 @@
+// Containers
+const resumeContainer = document.querySelector(".resume-container");
+const projectsContainer = document.querySelector(".projects-container");
+const certificateContainer = document.querySelector(".certificate-container");
+
+// Buttons
+const resumeButton = document.querySelector(".resume-button");
+const projectsButton = document.querySelector(".projects-button");
+const certificateButton = document.querySelector(".certificate-button");
+
+//Functionality
+resumeButton.addEventListener("click", () => {
+    if (resumeContainer.classList.contains("hidden")) {
+        resumeContainer.classList.remove("hidden");
+    } else {
+        resumeContainer.classList.add("hidden");
+    };
+});
+projectsButton.addEventListener("click", () => {
+    if (projectsContainer.classList.contains("hidden")) {
+        projectsContainer.classList.remove("hidden");
+    } else {
+        projectsContainer.classList.add("hidden");
+    };
+});
+certificateButton.addEventListener("click", () => {
+    if (certificateContainer.classList.contains("hidden")) {
+        certificateContainer.classList.remove("hidden");
+    } else {
+        certificateContainer.classList.add("hidden");
+    };
+});
+
+// ----OLD CODE---- //
+/*
 const projectsButton = document.querySelector(".projects-button");
 const projectsContainer = document.querySelector(".projects-container");
 const projectsButtonText = document.querySelector(".projects-button-text");
@@ -60,3 +95,4 @@ certificateImages.forEach((img) => {
 function closeLightbox() {
     lightbox.style.display = "none"; // Hide the lightbox
 }
+*/

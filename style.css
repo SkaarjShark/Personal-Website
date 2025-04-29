@@ -48,5 +48,10 @@ html, body {
 }
 
 .links-container img {
-    max-width: 2rem;
+    max-width: 1rem;
+    border-radius: 1rem;
+}
+
+.hidden * {
+    display: none;
 }
