@@ -46,3 +46,7 @@ html, body {
     flex-shrink: 0;
     object-fit: cover;
 }
+
+.links-container img {
+    max-width: 2rem;
+}
