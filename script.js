@@ -10,6 +10,8 @@ const certificateButton = document.querySelector(".certificate-button");
 
 //Functionality
 resumeButton.addEventListener("click", () => {
+    projectsContainer.classList.add("hidden");
+    certificateContainer.classList.add("hidden");
     if (resumeContainer.classList.contains("hidden")) {
         resumeContainer.classList.remove("hidden");
     } else {
@@ -17,6 +19,8 @@ resumeButton.addEventListener("click", () => {
     };
 });
 projectsButton.addEventListener("click", () => {
+    resumeContainer.classList.add("hidden");
+    certificateContainer.classList.add("hidden");
     if (projectsContainer.classList.contains("hidden")) {
         projectsContainer.classList.remove("hidden");
     } else {
@@ -24,6 +28,8 @@ projectsButton.addEventListener("click", () => {
     };
 });
 certificateButton.addEventListener("click", () => {
+    resumeContainer.classList.add("hidden");
+    projectsContainer.classList.add("hidden");
     if (certificateContainer.classList.contains("hidden")) {
         certificateContainer.classList.remove("hidden");
     } else {
@@ -31,7 +37,7 @@ certificateButton.addEventListener("click", () => {
     };
 });
 
-// ----OLD CODE---- //
+// ----OLD SCRIPT---- //
 /*
 const projectsButton = document.querySelector(".projects-button");
 const projectsContainer = document.querySelector(".projects-container");
