@@ -1,5 +1,3 @@
-/* TO DO: some styles do not look proper with different screen sizes. */
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -20,10 +18,13 @@ html, body {
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
 }
 
 .body-container {
     display: flex;
+    padding-top: 5rem;
 }
 
 .body-container .text-container {
