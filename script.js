@@ -8,7 +8,7 @@ const resumeButton = document.querySelector(".resume-button");
 const projectsButton = document.querySelector(".projects-button");
 const certificateButton = document.querySelector(".certificate-button");
 
-//Functionality
+// Functionality
 resumeButton.addEventListener("click", () => {
     projectsContainer.classList.add("hidden");
     certificateContainer.classList.add("hidden");

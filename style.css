@@ -1,3 +1,5 @@
+/* TO DO: some styles do not look proper with different screen sizes. */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -27,7 +29,6 @@ html, body {
 .body-container .text-container {
     margin-top: 3rem;
     padding: 3rem;
-    border: red 2px solid;
 }
 
 .clickables {
@@ -45,6 +46,36 @@ html, body {
     display: block;
     flex-shrink: 0;
     object-fit: cover;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35rem;
+}
+
+button {
+    border-radius: 1rem;
+    border-color: gray;
+    color: #008294;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(gray, #fafafa);
+    color: #780606;
+    border-color: #780606;
+}
+
+.projects-button {
+    color: purple;
+}
+
+.certificate-button {
+    color: orange;
 }
 
 .links-container img {
