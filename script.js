@@ -1,3 +1,41 @@
+// ----HEADER---- //
+
+// Clickables
+const resumeClickable = document.querySelector(".resume-clickable");
+const projectsClickable = document.querySelector(".projects-clickable");
+const certificateClickable = document.querySelector(".certificate-clickable");
+
+// Functionality
+resumeClickable.addEventListener("click", () => {
+    projectsContainer.classList.add("hidden");
+    certificateContainer.classList.add("hidden");
+    if (resumeContainer.classList.contains("hidden")) {
+        resumeContainer.classList.remove("hidden");
+    } else {
+        resumeContainer.classList.add("hidden");
+    };
+});
+projectsClickable.addEventListener("click", () => {
+    resumeContainer.classList.add("hidden");
+    certificateContainer.classList.add("hidden");
+    if (projectsContainer.classList.contains("hidden")) {
+        projectsContainer.classList.remove("hidden");
+    } else {
+        projectsContainer.classList.add("hidden");
+    };
+});
+certificateClickable.addEventListener("click", () => {
+    resumeContainer.classList.add("hidden");
+    projectsContainer.classList.add("hidden");
+    if (certificateContainer.classList.contains("hidden")) {
+        certificateContainer.classList.remove("hidden");
+    } else {
+        certificateContainer.classList.add("hidden");
+    };
+});
+
+// ----BUTTONS---- //
+
 // Containers
 const resumeContainer = document.querySelector(".resume-container");
 const projectsContainer = document.querySelector(".projects-container");
