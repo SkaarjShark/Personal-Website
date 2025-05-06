@@ -7,31 +7,13 @@ const certificateClickable = document.querySelector(".certificate-clickable");
 
 // Functionality
 resumeClickable.addEventListener("click", () => {
-    projectsContainer.classList.add("hidden");
-    certificateContainer.classList.add("hidden");
-    if (resumeContainer.classList.contains("hidden")) {
-        resumeContainer.classList.remove("hidden");
-    } else {
-        resumeContainer.classList.add("hidden");
-    };
+    clickableFunction("resume");
 });
 projectsClickable.addEventListener("click", () => {
-    resumeContainer.classList.add("hidden");
-    certificateContainer.classList.add("hidden");
-    if (projectsContainer.classList.contains("hidden")) {
-        projectsContainer.classList.remove("hidden");
-    } else {
-        projectsContainer.classList.add("hidden");
-    };
+    clickableFunction("projects");
 });
 certificateClickable.addEventListener("click", () => {
-    resumeContainer.classList.add("hidden");
-    projectsContainer.classList.add("hidden");
-    if (certificateContainer.classList.contains("hidden")) {
-        certificateContainer.classList.remove("hidden");
-    } else {
-        certificateContainer.classList.add("hidden");
-    };
+    clickableFunction("certificate");
 });
 
 // ----BUTTONS---- //
@@ -48,32 +30,43 @@ const certificateButton = document.querySelector(".certificate-button");
 
 // Functionality
 resumeButton.addEventListener("click", () => {
-    projectsContainer.classList.add("hidden");
-    certificateContainer.classList.add("hidden");
-    if (resumeContainer.classList.contains("hidden")) {
-        resumeContainer.classList.remove("hidden");
-    } else {
-        resumeContainer.classList.add("hidden");
-    };
+    clickableFunction("resume");
 });
 projectsButton.addEventListener("click", () => {
-    resumeContainer.classList.add("hidden");
-    certificateContainer.classList.add("hidden");
-    if (projectsContainer.classList.contains("hidden")) {
-        projectsContainer.classList.remove("hidden");
-    } else {
-        projectsContainer.classList.add("hidden");
-    };
+    clickableFunction("projects");
 });
 certificateButton.addEventListener("click", () => {
-    resumeContainer.classList.add("hidden");
-    projectsContainer.classList.add("hidden");
-    if (certificateContainer.classList.contains("hidden")) {
-        certificateContainer.classList.remove("hidden");
-    } else {
-        certificateContainer.classList.add("hidden");
-    };
+    clickableFunction("certificate");
 });
+
+// ----Clickable Function---- //
+const clickableFunction = arg => {
+    if (arg === "resume") {
+        projectsContainer.classList.add("hidden");
+        certificateContainer.classList.add("hidden");
+        if (resumeContainer.classList.contains("hidden")) {
+            resumeContainer.classList.remove("hidden");
+        } else {
+            resumeContainer.classList.add("hidden");
+        };
+    } else if (arg === "projects") {
+        resumeContainer.classList.add("hidden");
+        certificateContainer.classList.add("hidden");
+        if (projectsContainer.classList.contains("hidden")) {
+            projectsContainer.classList.remove("hidden");
+        } else {
+            projectsContainer.classList.add("hidden");
+        };
+    } else if (arg === "certificate") {
+        resumeContainer.classList.add("hidden");
+        projectsContainer.classList.add("hidden");
+        if (certificateContainer.classList.contains("hidden")) {
+            certificateContainer.classList.remove("hidden");
+        } else {
+            certificateContainer.classList.add("hidden");
+        };
+    };
+}
 
 // ----OLD SCRIPT---- //
 /*
