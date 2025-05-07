@@ -32,9 +32,14 @@ html, body {
     padding: 3rem;
 }
 
-.clickables {
+.clickables-container {
     display: flex;
     justify-content: space-between;
+    min-width: 300px;
+}
+
+.clickables-container > div {
+    cursor: pointer;
 }
 
 .face {
