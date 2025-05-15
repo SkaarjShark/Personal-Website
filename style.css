@@ -92,6 +92,16 @@ button:hover {
     border-radius: 1rem;
 }
 
+.project {
+    border-radius: 1rem;
+    border: black solid 0.2rem;
+    background-image: linear-gradient(white, #bbb9b9);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
 .certificate-images-container img {
     max-width: 30rem;
 }
