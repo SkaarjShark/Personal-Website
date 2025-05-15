@@ -63,7 +63,8 @@ html, body {
 button {
     border-radius: 1rem;
     border-color: gray;
-    color: #008294;
+    /* color: #008294; */
+    color: black;
     margin-bottom: 2rem;
     padding: 1.2rem;
     font-size: 1rem;
@@ -77,11 +78,13 @@ button:hover {
 }
 
 .projects-button {
-    color: purple;
+    /* color: purple; */
+    color: black;
 }
 
 .certificate-button {
-    color: orange;
+    /* color: orange; */
+    color: black;
 }
 
 .links-container img {
