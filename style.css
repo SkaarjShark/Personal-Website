@@ -92,6 +92,10 @@ button:hover {
     border-radius: 1rem;
 }
 
+.certificate-images-container img {
+    max-width: 30rem;
+}
+
 .hidden * {
     display: none;
 }
