@@ -109,3 +109,9 @@ button:hover {
 .hidden * {
     display: none;
 }
+
+@media (max-width: 600px) {
+    .face {
+        display: none;
+    }
+}
