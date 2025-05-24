@@ -110,6 +110,12 @@ button:hover {
     display: none;
 }
 
+@media (max-width: 1000px) {
+    .face {
+        max-width: 30%;
+    }
+}
+
 @media (max-width: 600px) {
     .face {
         display: none;
