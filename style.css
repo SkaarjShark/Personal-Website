@@ -110,9 +110,13 @@ button:hover {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .face {
         max-width: 30%;
+    }
+
+    .text-container h2{
+        font-size: 0.7rem;
     }
 }
 
