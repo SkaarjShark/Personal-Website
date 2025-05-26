@@ -124,8 +124,12 @@ button:hover {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .face {
         display: none;
+    }
+
+    .text-container {
+        max-width: 70rem;
     }
 }
