@@ -133,3 +133,9 @@ button:hover {
         max-width: 70rem;
     }
 }
+
+@media (max-width: 900px) {
+    .text-container {
+        max-width: 45rem;
+    }
+}
